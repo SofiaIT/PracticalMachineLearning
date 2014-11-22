@@ -6,11 +6,14 @@
 #  PROJECT FOR ASSIGNMENT 1 #
 #---------------------------#
 
-setwd("C:/Users/Sofia Cividini/Documents/COURSERA COURSES/Data Science Specialization_JHU/Practical Machine Learning/Assignment1_Write up")
-file.exists("C:/Users/Sofia Cividini/Documents/COURSERA COURSES/Data Science Specialization_JHU/Practical Machine Learning/Assignment1_Write up")
+setwd("C:/Users/Sofia Cividini/Documents/COURSERA COURSES/Data Science Specialization_JHU/Practical Machine Learning/
+Assignment1_Write up")
+file.exists("C:/Users/Sofia Cividini/Documents/COURSERA COURSES/Data Science Specialization_JHU/Practical Machine Learning/
+Assignment1_Write up")
 getwd()
 
-pml.training <- read.csv("C:/Users/Sofia Cividini/Documents/COURSERA COURSES/Data Science Specialization_JHU/Practical Machine Learning/Assignment1_Write up/pml-training.csv", header=TRUE, sep=",")
+pml.training <- read.csv("C:/Users/Sofia Cividini/Documents/COURSERA COURSES/Data Science Specialization_JHU/
+Practical Machine Learning/Assignment1_Write up/pml-training.csv", header=TRUE, sep=",")
 pml.training <- edit(pml.training) 
 # attributes(pml.training)
 dim(pml.training)
